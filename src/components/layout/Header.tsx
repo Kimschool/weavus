@@ -17,20 +17,15 @@ export default function Header() {
   const router = useRouter();
   const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
-  const [hidden, setHidden] = useState(false);
-  const [lastY, setLastY] = useState(0);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const y = window.scrollY;
-      setScrolled(y > 50);
-      setHidden(y > 400 && y > lastY);
-      setLastY(y);
+      setScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastY]);
+  }, []);
 
   const switchLocale = (newLocale: string) => {
     router.replace(pathname, { locale: newLocale as "ja" | "ko" | "en" });
@@ -44,52 +39,46 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        hidden ? "-translate-y-full" : "translate-y-0"
-      } ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-bg-card/95 backdrop-blur-xl border-b border-border shadow-md"
+          ? "bg-bg/95 backdrop-blur-xl border-b border-border"
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-16">
-        <div className="flex items-center justify-between h-[80px]">
+      <div className="container-lg">
+        <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-accent to-accent rounded-xl flex items-center justify-center shadow-lg">
-              <span className="text-[16px] font-bold text-text-inverse">W</span>
-            </div>
-            <span className="text-[17px] font-semibold tracking-[0.08em] text-text group-hover:text-text-secondary transition-colors">
+          <Link href="/" className="flex items-center group">
+            <span className="text-[22px] font-bold tracking-[-0.02em] text-text">
               WEAVUS
             </span>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-12">
+          <nav className="hidden lg:flex items-center gap-10">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="relative text-[13px] text-text-secondary font-normal hover:text-text transition-colors tracking-[0.04em] py-2 group"
+                className="text-[15px] text-text-secondary font-medium hover:text-text transition-colors duration-200"
               >
                 {item.label}
-                <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-accent-gold group-hover:w-full transition-all duration-400" />
               </Link>
             ))}
           </nav>
 
-          {/* Right Section - Language + CTA */}
-          <div className="hidden lg:flex items-center gap-8">
+          {/* Right Section */}
+          <div className="hidden lg:flex items-center gap-6">
             {/* Language Selector */}
-            <div className="flex items-center gap-2 text-[12px]">
+            <div className="flex items-center gap-1 text-[13px]">
               {Object.entries(localeLabels).map(([loc, label], i) => (
                 <span key={loc} className="flex items-center">
-                  {i > 0 && <span className="mx-2 text-border">/</span>}
+                  {i > 0 && <span className="text-border mx-1">/</span>}
                   <button
                     onClick={() => switchLocale(loc)}
-                    className={`px-2 py-1 transition-all duration-300 tracking-wider font-medium ${
+                    className={`px-1 py-1 transition-colors duration-200 font-medium ${
                       locale === loc
-                        ? "text-accent-gold"
+                        ? "text-text"
                         : "text-text-muted hover:text-text"
                     }`}
                   >
@@ -102,7 +91,7 @@ export default function Header() {
             {/* CTA Button */}
             <Link
               href="/contact"
-              className="px-7 py-3 bg-accent text-text-inverse text-[12px] font-medium tracking-[0.08em] rounded-lg hover:bg-accent-hover transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="btn-primary py-3 px-6 text-[14px]"
             >
               {t("contact")}
             </Link>
@@ -114,15 +103,20 @@ export default function Header() {
             className="lg:hidden w-10 h-10 flex items-center justify-center"
             aria-label="Menu"
           >
-            <div className="relative w-5 h-4">
+            <div className="relative w-6 h-5 flex flex-col justify-between">
               <span
-                className={`absolute left-0 right-0 h-[2px] bg-text rounded-full transition-all duration-300 ${
-                  mobileOpen ? "top-1/2 -translate-y-1/2 rotate-45" : "top-0"
+                className={`block h-[2px] bg-text rounded-full transition-all duration-300 origin-center ${
+                  mobileOpen ? "rotate-45 translate-y-[9px]" : ""
                 }`}
               />
               <span
-                className={`absolute left-0 right-0 h-[2px] bg-text rounded-full transition-all duration-300 ${
-                  mobileOpen ? "top-1/2 -translate-y-1/2 -rotate-45" : "bottom-0"
+                className={`block h-[2px] bg-text rounded-full transition-all duration-300 ${
+                  mobileOpen ? "opacity-0 scale-0" : ""
+                }`}
+              />
+              <span
+                className={`block h-[2px] bg-text rounded-full transition-all duration-300 origin-center ${
+                  mobileOpen ? "-rotate-45 -translate-y-[9px]" : ""
                 }`}
               />
             </div>
@@ -132,19 +126,18 @@ export default function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden fixed inset-0 top-[80px] bg-bg-card transition-all duration-500 ${
-          mobileOpen ? "opacity-100 visible" : "opacity-0 invisible"
+        className={`lg:hidden fixed inset-0 top-20 bg-bg transition-all duration-300 ${
+          mobileOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
         }`}
       >
-        <div className="px-6 py-10 flex flex-col h-full">
-          <nav className="flex flex-col gap-0 flex-1">
-            {navItems.map((item, i) => (
+        <div className="container-lg py-8 flex flex-col h-full">
+          <nav className="flex flex-col flex-1">
+            {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-[18px] font-medium text-text py-5 border-b border-border transition-colors hover:text-text-secondary"
-                style={{ transitionDelay: `${i * 60}ms` }}
+                className="text-[24px] font-semibold text-text py-5 border-b border-border hover:text-text-secondary transition-colors"
               >
                 {item.label}
               </Link>
@@ -152,13 +145,14 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="text-[18px] font-medium text-text py-5 border-b border-border transition-colors hover:text-text-secondary"
+              className="text-[24px] font-semibold text-text py-5 border-b border-border hover:text-text-secondary transition-colors"
             >
               {t("contact")}
             </Link>
           </nav>
-          <div className="flex flex-col gap-4 py-8 border-t border-border">
-            <div className="flex items-center gap-3">
+          
+          <div className="py-8 border-t border-border">
+            <div className="flex items-center gap-4">
               {Object.entries(localeLabels).map(([loc, label]) => (
                 <button
                   key={loc}
@@ -166,10 +160,10 @@ export default function Header() {
                     switchLocale(loc);
                     setMobileOpen(false);
                   }}
-                  className={`text-[13px] tracking-wider transition-colors px-4 py-2 rounded-lg font-medium ${
+                  className={`text-[14px] font-medium px-4 py-2 rounded-full transition-all ${
                     locale === loc
-                      ? "text-text-inverse bg-accent"
-                      : "text-text-muted hover:text-text"
+                      ? "bg-accent text-text-inverse"
+                      : "bg-bg-muted text-text-secondary hover:text-text"
                   }`}
                 >
                   {label}
