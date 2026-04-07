@@ -8,6 +8,7 @@
     "contentServices": "Creative"
   },
   "Hero": {
+    "label": "IT SOLUTIONS & CREATIVE",
     "title": "Technology & Creativity,",
     "titleAccent": "Moving Business Forward.",
     "subtitle": "Solving your challenges with the power of IT and creative expertise.",
@@ -68,6 +69,7 @@
   },
   "Portfolio": {
     "sectionLabel": "PORTFOLIO",
+    "ctaLabel": "GET IN TOUCH",
     "title": "Projects We Can Handle",
     "subtitle": "Examples of solutions we can provide",
     "tab1": "App Dev",

@@ -8,6 +8,7 @@
     "contentServices": "クリエイティブ"
   },
   "Hero": {
+    "label": "IT SOLUTIONS & CREATIVE",
     "title": "技術と創造で、",
     "titleAccent": "ビジネスを前へ。",
     "subtitle": "お客様の課題を、ITとクリエイティブの力で解決する。",
@@ -68,6 +69,7 @@
   },
   "Portfolio": {
     "sectionLabel": "PORTFOLIO",
+    "ctaLabel": "GET IN TOUCH",
     "title": "こんなプロジェクト、お任せください",
     "subtitle": "私たちが提供できるソリューションの一例です",
     "tab1": "アプリ開発",
