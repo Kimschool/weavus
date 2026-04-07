@@ -48,47 +48,48 @@ export default function Header() {
         hidden ? "-translate-y-full" : "translate-y-0"
       } ${
         scrolled
-          ? "bg-bg-card/95 backdrop-blur-xl border-b border-border shadow-sm"
+          ? "bg-bg-card/95 backdrop-blur-xl border-b border-border shadow-md"
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+      <div className="max-w-[1440px] mx-auto px-6 lg:px-16">
         <div className="flex items-center justify-between h-[80px]">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-[14px] font-bold text-text-inverse">W</span>
+            <div className="w-10 h-10 bg-gradient-to-br from-accent to-accent rounded-xl flex items-center justify-center shadow-lg">
+              <span className="text-[16px] font-bold text-text-inverse">W</span>
             </div>
-            <span className="text-[16px] font-semibold tracking-[0.1em] text-text group-hover:text-text-secondary transition-colors">
+            <span className="text-[17px] font-semibold tracking-[0.08em] text-text group-hover:text-text-secondary transition-colors">
               WEAVUS
             </span>
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-10">
+          <nav className="hidden lg:flex items-center gap-12">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="relative text-[13px] text-text-secondary hover:text-text transition-colors tracking-[0.03em] py-2 group"
+                className="relative text-[13px] text-text-secondary font-normal hover:text-text transition-colors tracking-[0.04em] py-2 group"
               >
                 {item.label}
-                <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-accent group-hover:w-full transition-all duration-300" />
+                <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-accent-gold group-hover:w-full transition-all duration-400" />
               </Link>
             ))}
           </nav>
 
-          {/* Language + CTA */}
-          <div className="hidden lg:flex items-center gap-6">
-            <div className="flex items-center gap-1 text-[12px]">
+          {/* Right Section - Language + CTA */}
+          <div className="hidden lg:flex items-center gap-8">
+            {/* Language Selector */}
+            <div className="flex items-center gap-2 text-[12px]">
               {Object.entries(localeLabels).map(([loc, label], i) => (
                 <span key={loc} className="flex items-center">
-                  {i > 0 && <span className="mx-2 text-border">|</span>}
+                  {i > 0 && <span className="mx-2 text-border">/</span>}
                   <button
                     onClick={() => switchLocale(loc)}
-                    className={`px-1 py-1 transition-colors tracking-wider ${
+                    className={`px-2 py-1 transition-all duration-300 tracking-wider font-medium ${
                       locale === loc
-                        ? "text-text font-medium"
+                        ? "text-accent-gold"
                         : "text-text-muted hover:text-text"
                     }`}
                   >
@@ -97,9 +98,11 @@ export default function Header() {
                 </span>
               ))}
             </div>
+
+            {/* CTA Button */}
             <Link
               href="/contact"
-              className="px-6 py-2.5 bg-accent text-text-inverse text-[12px] font-medium tracking-[0.08em] rounded-full hover:bg-accent-hover transition-colors"
+              className="px-7 py-3 bg-accent text-text-inverse text-[12px] font-medium tracking-[0.08em] rounded-lg hover:bg-accent-hover transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               {t("contact")}
             </Link>
@@ -108,10 +111,10 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-bg-soft transition-colors"
+            className="lg:hidden w-10 h-10 flex items-center justify-center"
             aria-label="Menu"
           >
-            <div className="relative w-5 h-3.5">
+            <div className="relative w-5 h-4">
               <span
                 className={`absolute left-0 right-0 h-[2px] bg-text rounded-full transition-all duration-300 ${
                   mobileOpen ? "top-1/2 -translate-y-1/2 rotate-45" : "top-0"
@@ -140,7 +143,7 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-[24px] font-medium text-text py-5 border-b border-border transition-colors hover:text-text-secondary"
+                className="text-[18px] font-medium text-text py-5 border-b border-border transition-colors hover:text-text-secondary"
                 style={{ transitionDelay: `${i * 60}ms` }}
               >
                 {item.label}
@@ -149,28 +152,30 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="text-[24px] font-medium text-text py-5 border-b border-border transition-colors hover:text-text-secondary"
+              className="text-[18px] font-medium text-text py-5 border-b border-border transition-colors hover:text-text-secondary"
             >
               {t("contact")}
             </Link>
           </nav>
-          <div className="flex items-center gap-4 py-8 border-t border-border">
-            {Object.entries(localeLabels).map(([loc, label]) => (
-              <button
-                key={loc}
-                onClick={() => {
-                  switchLocale(loc);
-                  setMobileOpen(false);
-                }}
-                className={`text-[14px] tracking-wider transition-colors px-3 py-2 rounded-lg ${
-                  locale === loc
-                    ? "text-text font-medium bg-bg-soft"
-                    : "text-text-muted hover:text-text"
-                }`}
-              >
-                {label}
-              </button>
-            ))}
+          <div className="flex flex-col gap-4 py-8 border-t border-border">
+            <div className="flex items-center gap-3">
+              {Object.entries(localeLabels).map(([loc, label]) => (
+                <button
+                  key={loc}
+                  onClick={() => {
+                    switchLocale(loc);
+                    setMobileOpen(false);
+                  }}
+                  className={`text-[13px] tracking-wider transition-colors px-4 py-2 rounded-lg font-medium ${
+                    locale === loc
+                      ? "text-text-inverse bg-accent"
+                      : "text-text-muted hover:text-text"
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
