@@ -1,0 +1,224 @@
+{
+  "Header": {
+    "services": "서비스",
+    "portfolio": "실적",
+    "company": "회사소개",
+    "contact": "문의하기",
+    "itServices": "IT솔루션",
+    "contentServices": "크리에이티브"
+  },
+  "Hero": {
+    "title": "기술과 창조로,",
+    "titleAccent": "비즈니스를 앞으로.",
+    "subtitle": "고객의 과제를, IT와 크리에이티브의 힘으로 해결합니다.",
+    "description": "어플리케이션 개발부터 콘텐츠 제작까지, 원스톱으로 대응하는 프로페셔널 파트너",
+    "ctaServices": "서비스 보기",
+    "ctaContact": "문의하기"
+  },
+  "Services": {
+    "sectionLabel": "SERVICES",
+    "title": "사업 영역",
+    "subtitle": "IT와 크리에이티브, 두 전문 영역으로\n고객의 비즈니스를 지원합니다",
+    "it": {
+      "title": "IT Solutions",
+      "subtitle": "IT솔루션 사업",
+      "description": "업무 효율화부터 신규 프로덕트 개발까지, 고객의 과제에 최적화된 IT솔루션을 제공합니다.",
+      "service1": "어플리케이션 개발",
+      "service1desc": "모바일·웹앱 기획부터 개발·운영까지",
+      "service2": "웹사이트 제작·리뉴얼",
+      "service2desc": "기업 사이트, EC사이트, LP 제작",
+      "service3": "AI·업무자동화",
+      "service3desc": "AI 도구 도입, RPA를 통한 업무 효율화",
+      "service4": "HR시스템 개발",
+      "service4desc": "인사관리, 근태, 채용관리 시스템",
+      "cta": "자세히 보기"
+    },
+    "content": {
+      "title": "Creative Solutions",
+      "subtitle": "크리에이티브 사업",
+      "description": "웹툰 로컬라이징부터 기업용 콘텐츠 제작까지, 크리에이티브의 힘으로 비즈니스를 가속합니다.",
+      "service1": "웹툰 로컬라이징",
+      "service1desc": "다국어 번역·문화 적응·품질관리",
+      "service2": "기업 로컬라이징 지원",
+      "service2desc": "매뉴얼, 마케팅 자료의 다국어 대응",
+      "service3": "웹툰 제작",
+      "service3desc": "기획·작화·채색의 풀 프로덕션",
+      "service4": "콘텐츠 제작",
+      "service4desc": "영상, 그래픽, SNS 콘텐츠",
+      "cta": "자세히 보기"
+    }
+  },
+  "Strengths": {
+    "sectionLabel": "NUMBERS",
+    "title": "숫자로 보는 WEAVUS",
+    "stat1": "전문 인력",
+    "stat1unit": "명+",
+    "stat2": "연간 성장률",
+    "stat2unit": "%",
+    "stat3": "설립",
+    "stat3unit": "년~",
+    "stat4": "프로젝트 실적",
+    "stat4unit": "건+",
+    "strength1": "기술력",
+    "strength1desc": "최신 기술 스택에 정통한 엔지니어 팀이 고품질 솔루션을 제공합니다.",
+    "strength2": "글로벌 대응",
+    "strength2desc": "한일 바이링구얼 팀에 의한 원활한 크로스보더 개발·로컬라이징.",
+    "strength3": "원스톱",
+    "strength3desc": "기획·개발·디자인·운영까지, 프로젝트를 일괄 지원합니다."
+  },
+  "Portfolio": {
+    "sectionLabel": "PORTFOLIO",
+    "title": "이런 프로젝트, 맡겨주세요",
+    "subtitle": "저희가 제공할 수 있는 솔루션의 예시입니다",
+    "tab1": "앱 개발",
+    "tab2": "웹 제작",
+    "tab3": "AI·자동화",
+    "tab4": "콘텐츠",
+    "cta": "이런 프로젝트도\n부담없이 상담해 주세요",
+    "ctaButton": "상담하기",
+    "app1": "업무관리 앱",
+    "app1desc": "사내 업무 플로우를 효율화하는 모바일 어플리케이션. 실시간 알림, 승인 워크플로우, 대시보드 기능을 구현.",
+    "app1tags": "React Native,Firebase,UI/UX설계",
+    "app2": "EC플랫폼",
+    "app2desc": "BtoB 수발주 관리 플랫폼. 재고 연동, 결제 기능, 관리 화면을 풀스크래치로 개발.",
+    "app2tags": "Next.js,AWS,Stripe연동",
+    "web1": "기업사이트 리뉴얼",
+    "web1desc": "대기업 기업사이트 전면 리뉴얼. 브랜드 이미지 쇄신과 SEO 최적화로 방문자 수 150% 향상 달성.",
+    "web1tags": "디자인,WordPress,SEO",
+    "web2": "채용사이트 제작",
+    "web2desc": "신입·경력 채용을 위한 채용 전문 사이트. 영상 콘텐츠와 인터랙티브 UI 설계로 지원율 200% 향상.",
+    "web2tags": "React,영상제작,UI/UX",
+    "ai1": "AI 챗봇 도입",
+    "ai1desc": "고객 지원 문의 대응 자동화. GPT 연동을 통한 고정밀 답변 생성으로 대응 시간 70% 단축.",
+    "ai1tags": "ChatGPT API,Python,자연어처리",
+    "ai2": "RPA 업무자동화",
+    "ai2desc": "청구서 처리, 데이터 입력, 보고서 생성 등 정형 업무를 자동화. 월간 200시간 공수 절감 달성.",
+    "ai2tags": "UiPath,Power Automate,업무분석",
+    "content1": "웹툰 로컬라이징",
+    "content1desc": "한국 인기 웹툰의 일본어 로컬라이징. 번역, 레터링, 문화 적응을 포함한 풀서비스로 50작품 이상 실적.",
+    "content1tags": "번역,레터링,품질관리",
+    "content2": "기업 프로모션 영상",
+    "content2desc": "서비스 소개 영상, 채용 영상, SNS용 숏 영상 등, 목적에 맞는 영상 콘텐츠를 기획부터 제작.",
+    "content2tags": "영상제작,모션그래픽스,SNS"
+  },
+  "Company": {
+    "sectionLabel": "COMPANY",
+    "title": "회사 개요",
+    "name": "주식회사 WEAVUS",
+    "nameLabel": "회사명",
+    "ceo": "모리 료타",
+    "ceoLabel": "대표이사",
+    "established": "2015년 1월 16일",
+    "establishedLabel": "설립",
+    "capital": "500만엔",
+    "capitalLabel": "자본금",
+    "employees": "약 60명 (파트 포함)",
+    "employeesLabel": "직원 수",
+    "address": "〒160-0022 도쿄도 신주쿠구 신주쿠 1-19-10 산모르크레스트 205호",
+    "addressLabel": "소재지",
+    "business": "IT솔루션 사업 / 크리에이티브 사업 / 인재서비스 사업",
+    "businessLabel": "사업내용",
+    "mission": "Designing Tomorrow, Today",
+    "missionLabel": "비전"
+  },
+  "Contact": {
+    "sectionLabel": "CONTACT",
+    "title": "부담없이 상담해 주세요.",
+    "subtitle": "프로젝트 상담, 견적, 서비스에 관한 질문 등,\n어떤 것이든 편하게 문의해 주세요.",
+    "ctaButton": "문의 폼으로 이동",
+    "phone": "03-4363-2456",
+    "email": "info@weavus-group.com"
+  },
+  "ContactPage": {
+    "title": "문의하기",
+    "subtitle": "프로젝트 상담이나 견적 요청 등, 편하게 문의해 주세요.",
+    "companyName": "회사명",
+    "companyPlaceholder": "주식회사 ○○",
+    "name": "담당자명",
+    "namePlaceholder": "홍길동",
+    "email": "이메일",
+    "emailPlaceholder": "example@company.co.jp",
+    "phone": "전화번호",
+    "phonePlaceholder": "03-0000-0000",
+    "type": "문의 종류",
+    "typeOptions": {
+      "app": "어플리케이션 개발",
+      "web": "웹사이트 제작",
+      "ai": "AI·업무자동화",
+      "content": "콘텐츠 제작·로컬라이징",
+      "other": "기타"
+    },
+    "message": "문의 내용",
+    "messagePlaceholder": "프로젝트 개요, 요청사항, 질문 등을 작성해 주세요.",
+    "submit": "보내기",
+    "info": "문의 정보",
+    "required": "필수"
+  },
+  "ITServices": {
+    "title": "IT Solutions",
+    "subtitle": "고객의 과제를 기술로 해결",
+    "description": "최신 기술과 베테랑 엔지니어의 노하우를 결합하여,\n비즈니스 성장을 가속하는 IT솔루션을 제공합니다.",
+    "app": {
+      "title": "어플리케이션 개발",
+      "description": "모바일 앱, 웹 어플리케이션의 기획·설계·개발·운영을 원스톱으로 대응. 사용자 경험을 중시한, 사용하기 쉽고 아름다운 어플리케이션을 실현합니다.",
+      "features": "iOS / Android 네이티브 개발,크로스플랫폼 개발 (React Native / Flutter),웹 어플리케이션 개발,API 설계·개발,UI/UX 디자인"
+    },
+    "web": {
+      "title": "웹사이트 제작·리뉴얼",
+      "description": "기업 사이트, 서비스 사이트, EC사이트, 랜딩페이지 등, 목적에 맞는 최적의 웹사이트를 제작. SEO 대책과 접근성을 고려한 고품질 사이트를 구축합니다.",
+      "features": "기업사이트 제작,EC사이트 구축,LP(랜딩페이지) 제작,CMS 도입·커스터마이징,SEO 대책·접근 분석"
+    },
+    "ai": {
+      "title": "AI·업무자동화 도구",
+      "description": "ChatGPT API를 비롯한 AI 기술 도입 지원부터 RPA를 통한 업무 자동화까지. 정형 업무의 효율화와 AI를 활용한 새로운 업무 플로우 구축을 지원합니다.",
+      "features": "AI 챗봇 개발,ChatGPT API 연동 개발,RPA 도입·개발,업무 플로우 자동화 컨설팅,데이터 분석·보고서 자동 생성"
+    },
+    "hr": {
+      "title": "HR시스템 개발",
+      "description": "근태관리, 인사평가, 채용관리 등, 인사 업무에 특화된 시스템을 개발. 기존 시스템과의 연동이나 기업의 인사 제도에 맞춘 커스터마이징에 대응합니다.",
+      "features": "근태관리 시스템,인사평가 시스템,채용관리(ATS),급여 계산 연동,직원 포털"
+    },
+    "otherTitle": "기타 서비스",
+    "dispatch": {
+      "title": "IT인재 서비스",
+      "description": "프로젝트 규모와 단계에 따라 경험 풍부한 IT엔지니어를 소개합니다. 고객 팀에 최적의 인재를 신속하게 매칭합니다.",
+      "license": "노동자파견사업 派13-316640 / 유료직업소개사업 13-ユ-315254"
+    }
+  },
+  "ContentServices": {
+    "title": "Creative Solutions",
+    "subtitle": "크리에이티브의 힘으로 비즈니스를 가속",
+    "description": "웹툰 로컬라이징부터 오리지널 콘텐츠 제작까지,\n고품질 크리에이티브 서비스를 제공합니다.",
+    "webtoonLocalize": {
+      "title": "웹툰 로컬라이징",
+      "description": "한국 인기 웹툰을 일본 시장에 맞게 로컬라이징. 번역 정확도는 물론, 문화적 적응, 레터링, 품질관리까지 일관 대응. 50작품 이상의 로컬라이징 실적이 있습니다.",
+      "features": "고품질 번역(한→일),문화 적응·로컬라이징,레터링·식자,품질관리·교정,플랫폼 입고 대응"
+    },
+    "corpLocalize": {
+      "title": "기업용 로컬라이징 지원",
+      "description": "매뉴얼, 마케팅 자료, 웹사이트 등 기업의 모든 문서에 대한 다국어 대응을 지원. 한국어·일본어·영어를 중심으로 정확하고 자연스러운 번역을 제공합니다.",
+      "features": "기술문서 번역,마케팅 번역,웹사이트 로컬라이징,DTP·레이아웃 조정,용어집 관리"
+    },
+    "webtoonProd": {
+      "title": "웹툰 제작",
+      "description": "오리지널 웹툰의 기획부터 제작까지 풀 프로덕션으로 대응. 스토리 기획, 캐릭터 디자인, 작화, 채색까지 프로페셔널 크리에이터 팀이 담당합니다.",
+      "features": "스토리 기획·시나리오,캐릭터 디자인,작화·선화,채색·마무리,연재 운영 지원"
+    },
+    "contentProd": {
+      "title": "콘텐츠 제작",
+      "description": "영상 콘텐츠, 그래픽 디자인, SNS 콘텐츠 등 다양한 크리에이티브 니즈에 대응. 기업의 브랜딩과 프로모션을 크리에이티브의 힘으로 지원합니다.",
+      "features": "프로모션 영상 제작,모션그래픽스,SNS 콘텐츠 제작,배너·광고 디자인,브랜딩 디자인"
+    }
+  },
+  "Footer": {
+    "description": "기술과 창조로, 비즈니스를 앞으로.",
+    "services": "서비스",
+    "itSolutions": "IT솔루션",
+    "creative": "크리에이티브",
+    "company": "회사정보",
+    "about": "회사개요",
+    "contact": "문의하기",
+    "privacy": "개인정보처리방침",
+    "copyright": "© 2025 WEAVUS Inc. All rights reserved."
+  }
+}

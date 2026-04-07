@@ -1,0 +1,224 @@
+{
+  "Header": {
+    "services": "サービス",
+    "portfolio": "実績",
+    "company": "会社概要",
+    "contact": "お問い合わせ",
+    "itServices": "ITソリューション",
+    "contentServices": "クリエイティブ"
+  },
+  "Hero": {
+    "title": "技術と創造で、",
+    "titleAccent": "ビジネスを前へ。",
+    "subtitle": "お客様の課題を、ITとクリエイティブの力で解決する。",
+    "description": "アプリケーション開発からコンテンツ制作まで、ワンストップで対応するプロフェッショナルパートナー",
+    "ctaServices": "サービスを見る",
+    "ctaContact": "お問い合わせ"
+  },
+  "Services": {
+    "sectionLabel": "SERVICES",
+    "title": "事業領域",
+    "subtitle": "ITとクリエイティブ、二つの専門領域で\nお客様のビジネスを支援します",
+    "it": {
+      "title": "IT Solutions",
+      "subtitle": "ITソリューション事業",
+      "description": "業務効率化から新規プロダクト開発まで、お客様の課題に最適なITソリューションを提供します。",
+      "service1": "アプリケーション開発",
+      "service1desc": "モバイル・Webアプリの企画から開発・運用まで",
+      "service2": "Webサイト制作・リニューアル",
+      "service2desc": "コーポレートサイト、ECサイト、LP制作",
+      "service3": "AI・業務自動化",
+      "service3desc": "AIツール導入、RPAによる業務効率化",
+      "service4": "HRシステム開発",
+      "service4desc": "人事管理、勤怠、採用管理システム",
+      "cta": "詳しく見る"
+    },
+    "content": {
+      "title": "Creative Solutions",
+      "subtitle": "クリエイティブ事業",
+      "description": "ウェブトゥーンのローカライズから企業向けコンテンツ制作まで、クリエイティブの力でビジネスを加速します。",
+      "service1": "ウェブトゥーン ローカライズ",
+      "service1desc": "多言語翻訳・文化適応・品質管理",
+      "service2": "企業ローカライズサポート",
+      "service2desc": "マニュアル、マーケティング資料の多言語対応",
+      "service3": "ウェブトゥーン制作",
+      "service3desc": "企画・作画・彩色のフルプロダクション",
+      "service4": "コンテンツ制作",
+      "service4desc": "動画、グラフィック、SNSコンテンツ",
+      "cta": "詳しく見る"
+    }
+  },
+  "Strengths": {
+    "sectionLabel": "NUMBERS",
+    "title": "数字で見るWEAVUS",
+    "stat1": "専門人材",
+    "stat1unit": "名+",
+    "stat2": "年間成長率",
+    "stat2unit": "%",
+    "stat3": "設立",
+    "stat3unit": "年〜",
+    "stat4": "プロジェクト実績",
+    "stat4unit": "件+",
+    "strength1": "技術力",
+    "strength1desc": "最新技術スタックに精通したエンジニアチームが、高品質なソリューションを提供します。",
+    "strength2": "グローバル対応",
+    "strength2desc": "日韓バイリンガルチームによる、シームレスなクロスボーダー開発・ローカライズ。",
+    "strength3": "ワンストップ",
+    "strength3desc": "企画・開発・デザイン・運用まで、プロジェクトを一気通貫でサポートします。"
+  },
+  "Portfolio": {
+    "sectionLabel": "PORTFOLIO",
+    "title": "こんなプロジェクト、お任せください",
+    "subtitle": "私たちが提供できるソリューションの一例です",
+    "tab1": "アプリ開発",
+    "tab2": "Web制作",
+    "tab3": "AI・自動化",
+    "tab4": "コンテンツ",
+    "cta": "このようなプロジェクトも\nお気軽にご相談ください",
+    "ctaButton": "相談する",
+    "app1": "業務管理アプリ",
+    "app1desc": "社内業務フローを効率化するモバイルアプリケーション。リアルタイム通知、承認ワークフロー、ダッシュボード機能を実装。",
+    "app1tags": "React Native,Firebase,UI/UX設計",
+    "app2": "ECプラットフォーム",
+    "app2desc": "BtoB向け受発注管理プラットフォーム。在庫連携、決済機能、管理画面をフルスクラッチで開発。",
+    "app2tags": "Next.js,AWS,Stripe連携",
+    "web1": "コーポレートサイト リニューアル",
+    "web1desc": "大手企業のコーポレートサイトを全面リニューアル。ブランドイメージの刷新と、SEO最適化によるアクセス数150%向上を実現。",
+    "web1tags": "デザイン,WordPress,SEO",
+    "web2": "採用サイト制作",
+    "web2desc": "新卒・中途採用向けの採用特設サイト。動画コンテンツとインタラクティブなUI設計で応募率200%向上。",
+    "web2tags": "React,動画制作,UI/UX",
+    "ai1": "AIチャットボット導入",
+    "ai1desc": "カスタマーサポートの問い合わせ対応を自動化。GPT連携による高精度な回答生成で、対応時間を70%削減。",
+    "ai1tags": "ChatGPT API,Python,自然言語処理",
+    "ai2": "RPA業務自動化",
+    "ai2desc": "請求書処理、データ入力、レポート生成などの定型業務を自動化。月間200時間の工数削減を達成。",
+    "ai2tags": "UiPath,Power Automate,業務分析",
+    "content1": "ウェブトゥーン ローカライズ",
+    "content1desc": "韓国発人気ウェブトゥーンの日本語ローカライズ。翻訳、レタリング、文化適応を含むフルサービスで50作品以上の実績。",
+    "content1tags": "翻訳,レタリング,品質管理",
+    "content2": "企業プロモーション動画",
+    "content2desc": "サービス紹介動画、採用動画、SNS向けショート動画など、目的に応じた映像コンテンツを企画から制作。",
+    "content2tags": "動画制作,モーショングラフィックス,SNS"
+  },
+  "Company": {
+    "sectionLabel": "COMPANY",
+    "title": "会社概要",
+    "name": "株式会社WEAVUS",
+    "nameLabel": "会社名",
+    "ceo": "森 亮太",
+    "ceoLabel": "代表取締役",
+    "established": "2015年1月16日",
+    "establishedLabel": "設立",
+    "capital": "500万円",
+    "capitalLabel": "資本金",
+    "employees": "約60名（パート含む）",
+    "employeesLabel": "従業員数",
+    "address": "〒160-0022 東京都新宿区新宿１-19-10 サンモールクレスト205号",
+    "addressLabel": "所在地",
+    "business": "ITソリューション事業 / クリエイティブ事業 / 人材サービス事業",
+    "businessLabel": "事業内容",
+    "mission": "Designing Tomorrow, Today",
+    "missionLabel": "ビジョン"
+  },
+  "Contact": {
+    "sectionLabel": "CONTACT",
+    "title": "まずは、お気軽にご相談ください。",
+    "subtitle": "プロジェクトのご相談、お見積もり、サービスに関するご質問など、\nどんなことでもお気軽にお問い合わせください。",
+    "ctaButton": "お問い合わせフォーム",
+    "phone": "03-4363-2456",
+    "email": "info@weavus-group.com"
+  },
+  "ContactPage": {
+    "title": "お問い合わせ",
+    "subtitle": "プロジェクトのご相談やお見積もり依頼など、お気軽にお問い合わせください。",
+    "companyName": "会社名",
+    "companyPlaceholder": "株式会社○○",
+    "name": "ご担当者名",
+    "namePlaceholder": "山田 太郎",
+    "email": "メールアドレス",
+    "emailPlaceholder": "example@company.co.jp",
+    "phone": "電話番号",
+    "phonePlaceholder": "03-0000-0000",
+    "type": "お問い合わせ種類",
+    "typeOptions": {
+      "app": "アプリケーション開発",
+      "web": "Webサイト制作",
+      "ai": "AI・業務自動化",
+      "content": "コンテンツ制作・ローカライズ",
+      "other": "その他"
+    },
+    "message": "お問い合わせ内容",
+    "messagePlaceholder": "プロジェクトの概要、ご要望、ご質問などをご記入ください。",
+    "submit": "送信する",
+    "info": "お問い合わせ情報",
+    "required": "必須"
+  },
+  "ITServices": {
+    "title": "IT Solutions",
+    "subtitle": "お客様の課題を技術で解決する",
+    "description": "最新のテクノロジーとベテランエンジニアの知見を組み合わせ、\nビジネスの成長を加速するITソリューションを提供します。",
+    "app": {
+      "title": "アプリケーション開発",
+      "description": "モバイルアプリ、Webアプリケーションの企画・設計・開発・運用をワンストップで対応。ユーザー体験を重視した、使いやすく美しいアプリケーションを実現します。",
+      "features": "iOS / Android ネイティブ開発,クロスプラットフォーム開発（React Native / Flutter）,Webアプリケーション開発,API設計・開発,UI/UXデザイン"
+    },
+    "web": {
+      "title": "Webサイト制作・リニューアル",
+      "description": "コーポレートサイト、サービスサイト、ECサイト、ランディングページなど、目的に応じた最適なWebサイトを制作。SEO対策やアクセシビリティにも配慮した高品質なサイトを構築します。",
+      "features": "コーポレートサイト制作,ECサイト構築,LP（ランディングページ）制作,CMS導入・カスタマイズ,SEO対策・アクセス解析"
+    },
+    "ai": {
+      "title": "AI・業務自動化ツール",
+      "description": "ChatGPT APIをはじめとするAI技術の導入支援から、RPAによる業務自動化まで。定型業務の効率化と、AIを活用した新しい業務フローの構築をサポートします。",
+      "features": "AIチャットボット開発,ChatGPT API連携開発,RPA導入・開発,業務フロー自動化コンサルティング,データ分析・レポート自動生成"
+    },
+    "hr": {
+      "title": "HRシステム開発",
+      "description": "勤怠管理、人事評価、採用管理など、人事業務に特化したシステムを開発。既存システムとの連携や、企業の人事制度に合わせたカスタマイズに対応します。",
+      "features": "勤怠管理システム,人事評価システム,採用管理（ATS）,給与計算連携,従業員ポータル"
+    },
+    "otherTitle": "その他のサービス",
+    "dispatch": {
+      "title": "IT人材サービス",
+      "description": "プロジェクトの規模やフェーズに応じて、経験豊富なITエンジニアをご紹介。お客様のチームに最適な人材を、迅速にマッチングいたします。",
+      "license": "労働者派遣事業 派13-316640 / 有料職業紹介事業 13-ユ-315254"
+    }
+  },
+  "ContentServices": {
+    "title": "Creative Solutions",
+    "subtitle": "クリエイティブの力でビジネスを加速",
+    "description": "ウェブトゥーンのローカライズからオリジナルコンテンツの制作まで、\n高品質なクリエイティブサービスを提供します。",
+    "webtoonLocalize": {
+      "title": "ウェブトゥーン ローカライズ",
+      "description": "韓国発の人気ウェブトゥーンを日本市場向けにローカライズ。翻訳精度はもちろん、文化的な適応、レタリング、品質管理まで一貫して対応。50作品以上のローカライズ実績があります。",
+      "features": "高品質翻訳（韓→日）,文化適応・ローカライズ,レタリング・写植,品質管理・校正,プラットフォーム入稿対応"
+    },
+    "corpLocalize": {
+      "title": "企業向けローカライズサポート",
+      "description": "マニュアル、マーケティング資料、Webサイトなど、企業のあらゆるドキュメントの多言語対応をサポート。韓国語・日本語・英語を中心に、正確で自然な翻訳を提供します。",
+      "features": "技術文書翻訳,マーケティング翻訳,Webサイトローカライズ,DTP・レイアウト調整,用語集管理"
+    },
+    "webtoonProd": {
+      "title": "ウェブトゥーン制作",
+      "description": "オリジナルウェブトゥーンの企画から制作までをフルプロダクションで対応。ストーリー企画、キャラクターデザイン、作画、彩色まで、プロフェッショナルなクリエイターチームが担当します。",
+      "features": "ストーリー企画・シナリオ,キャラクターデザイン,作画・線画,彩色・仕上げ,連載運用サポート"
+    },
+    "contentProd": {
+      "title": "コンテンツ制作",
+      "description": "動画コンテンツ、グラフィックデザイン、SNSコンテンツなど、多様なクリエイティブニーズに対応。企業のブランディングやプロモーションを、クリエイティブの力でサポートします。",
+      "features": "プロモーション動画制作,モーショングラフィックス,SNSコンテンツ制作,バナー・広告デザイン,ブランディングデザイン"
+    }
+  },
+  "Footer": {
+    "description": "技術と創造で、ビジネスを前へ。",
+    "services": "サービス",
+    "itSolutions": "ITソリューション",
+    "creative": "クリエイティブ",
+    "company": "会社情報",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "copyright": "© 2025 WEAVUS Inc. All rights reserved."
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "Header": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "company": "Company",
+    "contact": "Contact",
+    "itServices": "IT Solutions",
+    "contentServices": "Creative"
+  },
+  "Hero": {
+    "title": "Technology & Creativity,",
+    "titleAccent": "Moving Business Forward.",
+    "subtitle": "Solving your challenges with the power of IT and creative expertise.",
+    "description": "A professional partner providing one-stop solutions from application development to content production",
+    "ctaServices": "Our Services",
+    "ctaContact": "Contact Us"
+  },
+  "Services": {
+    "sectionLabel": "SERVICES",
+    "title": "Business Domains",
+    "subtitle": "Supporting your business with two areas\nof expertise: IT and Creative",
+    "it": {
+      "title": "IT Solutions",
+      "subtitle": "IT Solutions Division",
+      "description": "From operational efficiency to new product development, we provide optimal IT solutions tailored to your challenges.",
+      "service1": "Application Development",
+      "service1desc": "Planning to development and operation of mobile & web apps",
+      "service2": "Website Design & Renewal",
+      "service2desc": "Corporate sites, EC sites, landing pages",
+      "service3": "AI & Workflow Automation",
+      "service3desc": "AI tool implementation, RPA-driven efficiency",
+      "service4": "HR System Development",
+      "service4desc": "HR management, attendance, recruitment systems",
+      "cta": "Learn More"
+    },
+    "content": {
+      "title": "Creative Solutions",
+      "subtitle": "Creative Division",
+      "description": "From webtoon localization to corporate content production, accelerating business with creative power.",
+      "service1": "Webtoon Localization",
+      "service1desc": "Multi-language translation, cultural adaptation, QA",
+      "service2": "Corporate Localization",
+      "service2desc": "Manuals, marketing materials localization",
+      "service3": "Webtoon Production",
+      "service3desc": "Full production: planning, drawing, coloring",
+      "service4": "Content Production",
+      "service4desc": "Video, graphic, SNS content",
+      "cta": "Learn More"
+    }
+  },
+  "Strengths": {
+    "sectionLabel": "NUMBERS",
+    "title": "WEAVUS by the Numbers",
+    "stat1": "Professionals",
+    "stat1unit": "+",
+    "stat2": "Annual Growth",
+    "stat2unit": "%",
+    "stat3": "Founded",
+    "stat3unit": "~",
+    "stat4": "Projects Delivered",
+    "stat4unit": "+",
+    "strength1": "Technical Excellence",
+    "strength1desc": "Our engineering team, proficient in cutting-edge tech stacks, delivers high-quality solutions.",
+    "strength2": "Global Reach",
+    "strength2desc": "Seamless cross-border development and localization by our bilingual Korean-Japanese team.",
+    "strength3": "One-Stop Solution",
+    "strength3desc": "End-to-end project support from planning and development to design and operations."
+  },
+  "Portfolio": {
+    "sectionLabel": "PORTFOLIO",
+    "title": "Projects We Can Handle",
+    "subtitle": "Examples of solutions we can provide",
+    "tab1": "App Dev",
+    "tab2": "Web Design",
+    "tab3": "AI & Automation",
+    "tab4": "Content",
+    "cta": "Have a similar project?\nFeel free to reach out",
+    "ctaButton": "Get in Touch",
+    "app1": "Business Management App",
+    "app1desc": "Mobile application for streamlining internal workflows. Implemented real-time notifications, approval workflows, and dashboard features.",
+    "app1tags": "React Native,Firebase,UI/UX Design",
+    "app2": "EC Platform",
+    "app2desc": "B2B order management platform. Full-scratch development including inventory integration, payment processing, and admin panel.",
+    "app2tags": "Next.js,AWS,Stripe Integration",
+    "web1": "Corporate Site Renewal",
+    "web1desc": "Complete renewal of a major corporation's website. Achieved 150% increase in traffic through brand refresh and SEO optimization.",
+    "web1tags": "Design,WordPress,SEO",
+    "web2": "Recruitment Site",
+    "web2desc": "Specialized recruitment site for new graduates and mid-career hires. 200% increase in applications through video content and interactive UI.",
+    "web2tags": "React,Video Production,UI/UX",
+    "ai1": "AI Chatbot Implementation",
+    "ai1desc": "Automated customer support responses. Achieved 70% reduction in response time through GPT-powered high-accuracy answer generation.",
+    "ai1tags": "ChatGPT API,Python,NLP",
+    "ai2": "RPA Workflow Automation",
+    "ai2desc": "Automated routine tasks including invoice processing, data entry, and report generation. Achieved 200 hours/month reduction in workload.",
+    "ai2tags": "UiPath,Power Automate,Process Analysis",
+    "content1": "Webtoon Localization",
+    "content1desc": "Japanese localization of popular Korean webtoons. Full service including translation, lettering, and cultural adaptation with 50+ titles completed.",
+    "content1tags": "Translation,Lettering,QA",
+    "content2": "Corporate Promotion Video",
+    "content2desc": "Service introduction videos, recruitment videos, SNS short-form content. Full production from planning to completion.",
+    "content2tags": "Video Production,Motion Graphics,SNS"
+  },
+  "Company": {
+    "sectionLabel": "COMPANY",
+    "title": "Company Overview",
+    "name": "WEAVUS Inc.",
+    "nameLabel": "Company Name",
+    "ceo": "Ryota Mori",
+    "ceoLabel": "CEO",
+    "established": "January 16, 2015",
+    "establishedLabel": "Founded",
+    "capital": "5 Million JPY",
+    "capitalLabel": "Capital",
+    "employees": "Approx. 60 (incl. part-time)",
+    "employeesLabel": "Employees",
+    "address": "Sunmall Crest 205, 1-19-10 Shinjuku, Shinjuku-ku, Tokyo 160-0022",
+    "addressLabel": "Address",
+    "business": "IT Solutions / Creative Services / HR Services",
+    "businessLabel": "Business",
+    "mission": "Designing Tomorrow, Today",
+    "missionLabel": "Vision"
+  },
+  "Contact": {
+    "sectionLabel": "CONTACT",
+    "title": "Let's Talk About Your Project.",
+    "subtitle": "Project consultations, estimates, service inquiries —\nfeel free to reach out about anything.",
+    "ctaButton": "Contact Form",
+    "phone": "03-4363-2456",
+    "email": "info@weavus-group.com"
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "subtitle": "Feel free to reach out for project consultations or estimates.",
+    "companyName": "Company Name",
+    "companyPlaceholder": "Company Inc.",
+    "name": "Contact Person",
+    "namePlaceholder": "John Doe",
+    "email": "Email",
+    "emailPlaceholder": "example@company.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+81-3-0000-0000",
+    "type": "Inquiry Type",
+    "typeOptions": {
+      "app": "Application Development",
+      "web": "Website Design",
+      "ai": "AI & Automation",
+      "content": "Content & Localization",
+      "other": "Other"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Please describe your project, requirements, or questions.",
+    "submit": "Submit",
+    "info": "Contact Information",
+    "required": "Required"
+  },
+  "ITServices": {
+    "title": "IT Solutions",
+    "subtitle": "Solving Your Challenges with Technology",
+    "description": "Combining cutting-edge technology with veteran engineering expertise\nto deliver IT solutions that accelerate business growth.",
+    "app": {
+      "title": "Application Development",
+      "description": "One-stop mobile and web application planning, design, development, and operations. We create user-friendly, beautifully designed applications focused on user experience.",
+      "features": "iOS / Android Native Development,Cross-platform Development (React Native / Flutter),Web Application Development,API Design & Development,UI/UX Design"
+    },
+    "web": {
+      "title": "Website Design & Renewal",
+      "description": "We build optimal websites for every purpose — corporate sites, service sites, e-commerce, landing pages. High-quality sites with SEO and accessibility built in.",
+      "features": "Corporate Website Design,E-commerce Development,Landing Page Creation,CMS Implementation & Customization,SEO & Analytics"
+    },
+    "ai": {
+      "title": "AI & Workflow Automation",
+      "description": "From AI technology implementation including ChatGPT API to RPA-driven workflow automation. We support efficiency improvement and new AI-powered workflows.",
+      "features": "AI Chatbot Development,ChatGPT API Integration,RPA Implementation,Workflow Automation Consulting,Data Analysis & Auto-reporting"
+    },
+    "hr": {
+      "title": "HR System Development",
+      "description": "Specialized systems for HR operations including attendance, performance evaluation, and recruitment management. Custom integrations with existing systems.",
+      "features": "Attendance Management,Performance Evaluation System,Applicant Tracking (ATS),Payroll Integration,Employee Portal"
+    },
+    "otherTitle": "Other Services",
+    "dispatch": {
+      "title": "IT Staffing Services",
+      "description": "We connect experienced IT engineers to match your project scale and phase. Quick matching of optimal talent for your team.",
+      "license": "Worker Dispatch License 派13-316640 / Employment Agency License 13-ユ-315254"
+    }
+  },
+  "ContentServices": {
+    "title": "Creative Solutions",
+    "subtitle": "Accelerating Business with Creative Power",
+    "description": "From webtoon localization to original content production,\nwe deliver high-quality creative services.",
+    "webtoonLocalize": {
+      "title": "Webtoon Localization",
+      "description": "Japanese localization of popular Korean webtoons. Comprehensive service covering translation accuracy, cultural adaptation, lettering, and quality control. Over 50 titles localized.",
+      "features": "High-quality Translation (KR→JP),Cultural Adaptation & Localization,Lettering & Typesetting,Quality Control & Proofreading,Platform Delivery"
+    },
+    "corpLocalize": {
+      "title": "Corporate Localization Support",
+      "description": "Multi-language support for all corporate documents including manuals, marketing materials, and websites. Accurate and natural translations centered on Korean, Japanese, and English.",
+      "features": "Technical Document Translation,Marketing Translation,Website Localization,DTP & Layout Adjustment,Terminology Management"
+    },
+    "webtoonProd": {
+      "title": "Webtoon Production",
+      "description": "Full production of original webtoons from planning to completion. Our professional creative team handles story planning, character design, drawing, and coloring.",
+      "features": "Story Planning & Scenario,Character Design,Drawing & Line Art,Coloring & Finishing,Serialization Support"
+    },
+    "contentProd": {
+      "title": "Content Production",
+      "description": "Diverse creative needs including video content, graphic design, and SNS content. Supporting corporate branding and promotion with creative power.",
+      "features": "Promotional Video Production,Motion Graphics,SNS Content Creation,Banner & Ad Design,Branding Design"
+    }
+  },
+  "Footer": {
+    "description": "Technology & Creativity, Moving Business Forward.",
+    "services": "Services",
+    "itSolutions": "IT Solutions",
+    "creative": "Creative",
+    "company": "Company",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2025 WEAVUS Inc. All rights reserved."
+  }
+}
