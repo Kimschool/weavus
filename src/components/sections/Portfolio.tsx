@@ -122,7 +122,7 @@ export default function Portfolio() {
           transition={{ duration: 0.6 }}
           className="card p-10 lg:p-16 text-center"
         >
-          <span className="label text-primary mb-4 block">{t("ctaLabel")}</span>
+          <span className="text-[13px] font-medium tracking-[0.1em] text-primary uppercase mb-4 block">{t("ctaLabel")}</span>
           <p className="heading-md mb-8 max-w-2xl mx-auto whitespace-pre-line">{t("cta")}</p>
           <Link href="/contact" className="btn-primary">
             {t("ctaButton")}

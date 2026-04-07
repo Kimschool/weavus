@@ -36,7 +36,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <span className="label text-primary">{t("label")}</span>
+              <span className="text-[13px] font-medium tracking-[0.1em] text-primary uppercase">{t("label")}</span>
             </motion.div>
 
             <motion.h1
